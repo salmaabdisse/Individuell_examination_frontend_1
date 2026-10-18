@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hundpensionatet Tassen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Hundpensionatet Tassen</h1>
+        <nav class="nav">
+            <a href="#tjänster">Våra tjänster</a>
+            <a href="#kontakt">Kontakta oss</a>
+            <a href="#boka">Boka</a>
+        </nav>
+    </header>
+
+    <main>
+    <section class="intro">
+        <h2>Välkommen till Hundpensionatet Tassen</h2>
+        <p>Tassen är ett litet hunddagis och pensionat strax utanför stan.
+            Två anställda, plats för tolv hundar, stort inhägnat utomhusområde.</p>
+        <a href="#tjänster" class="introBtn">Se våra tjänster
+        </a>
+    </section>
+    <div class="info-bokning">
+        <section id="öppettider">
+            <h2>Tassens öppettider</h2>
+            <p>Dagens datum: <span id="dagensDatum"></span></p>
+            <p>Tid: <span id="tidNu"></span></p>
+            <p>Se status: <span id="status"></span></p>
+            <h3>Våra ordinarie öppettider</h3>
+            <ul>
+                <li>Måndag-fredag: 07:00-18:00</li>
+                <li>Lördag: 09:00-14:00</li>
+                <li>Söndag: Stängt</li>
+            </ul>
+        </section>
+
+
+        <section id="boka">
+            <form id="bokningsForm">
+                <label for="namn">Hundens namn</label>
+                <input type="text" id="namn">
+                <label for="date">Datum</label>
+                <input type="date" id="date">
+
+                <button type="submit" id="bookingBtn">Skicka</button>
+            </form>
+
+            <ul id="bokningsLista"></ul>
+            <p id="bokningsStats"></p>
+            <p id="bokningsFel"></p>
+
+            <p>Din förfrågan sparas i din webbläsare, vi ringer upp dig!</p>
+        </section>
+    </div>
+    <section class="underrubrik">
+        <h2>Våra Tjänster</h2>
+    </section>
+    <section id="tjänster">
+        <div class="tjänst">
+            <h3>Hunddagis - Heldag</h3>
+            <p>Hunden får omsorg, sällskap och aktivering under hela dagen</p>
+            <p>Pris: 320 kr </p>
+        </div>
+
+        <div class="tjänst">
+            <h3>Hunddagis - Halvdag</h3>
+            <p>Hunden får omsorg och sällskap under en del av dagen.</p>
+            <p>Pris: 190 kr </p>
+        </div>
+
+        <div class="tjänst">
+            <h3>Pensionat per natt</h3>
+            <p>Hunden övernattar på pensionatet och får tillsyn och omsorg.</p>
+            <p>Pris: 450 kr </p>
+        </div>
+        <div class="tjänst">
+            <h3>Hämtning och lämning</h3>
+            <p>Vi hämtar eller lämnar hunden enligt överenskommelse</p>
+            <p>Pris: 150 kr </p>
+        </div>
+
+    </section>
+
+    <section id="kundRecensioner">
+        <h2>Kundrecensioner</h2>
+    
+    <p id="recensionText">Klicka på knappen för att läsa en recension</p>
+     
+    <button id="nyRecension" type="button">Visa nästa recension</button>
+</section>
+    <section id="kontakt">
+        <h2>Kontakta oss: </h2>
+        <p>Adress: Hagvägen 4</p>
+        <p>Telefonnummer: 0300-12 34 56</p>
+        <p>E-post: hej@tassen.se</p>
+    </section>
+</main>
+    <footer id="footer">
+        <a href="#tjänster">Våra tjänster</a>
+        <a href="#kontakt">Kontakta oss</a>
+        <a href="#boka">Boka</a>
+    </footer>
+</body>
+
+</html>

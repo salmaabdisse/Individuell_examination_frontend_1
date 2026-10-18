@@ -1,0 +1,322 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: #526b4a;
+    text-align: center;
+    color: white;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+body {
+    margin: 0;
+    background-color: #F7F3EA;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #526b4a;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+.nav a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #34422e;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #e8eddf;
+    margin: 0 1rem 1rem;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+}
+
+.introBtn {
+    text-decoration: none;
+    background-color: #526b4a;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.introBtn:hover {
+    background-color: #34422e;
+}
+
+.info-bokning {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 0rem;
+    padding: 0 1rem 1rem;
+
+}
+
+
+#öppettider {
+    background-color: #e8eddf;
+    color: #34422e;
+    margin: 0rem;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+#öppettider h2 {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+
+#öppettider p {
+    font-size: large;
+    font-weight:normal;
+    color: #34422e;
+    padding: 1rem;
+}
+
+#öppettider ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+     font-size: large;
+    font-weight:normal;
+    color: #34422e;
+    padding: 1rem; 
+}
+
+
+#boka {
+    background-color: #e8eddf;
+    color: #34422e;
+    margin: 0rem;
+    padding: 1.5rem;
+    border-radius: 3rem;
+
+}
+
+#bokningsForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+#bokningsForm label {
+    font-size: x-large;
+    font-weight: normal;
+    margin-top: 0.5rem;
+
+}
+
+#bokningsForm input {
+    background-color: white;
+    color: #34422e;
+    padding: 1rem;
+    border: 1px solid #d5dfce;
+    border-radius: 1rem;
+
+}
+
+#bookingBtn {
+    background-color: #526b4a;
+    color: white;
+    padding: 1rem;
+    border:none;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+    font-size: medium;
+}
+
+
+
+#bookingBtn:hover{
+    background-color: #34422e;
+}
+
+#bokningsLista{
+    list-style: none;
+    margin: 1.5rem 0rem;
+    padding:0rem;
+}
+
+#bokningsLista li{
+    background-color: #f8faf5;
+    color: #34422e;
+    padding: 1rem;
+    border: 1px solid #d5dfce;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.avbokaButton{
+    background-color: #526b4a;
+    color: white;
+    padding:1rem;
+    margin: 1rem;
+    border:none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.avbokaButton:hover{
+    background-color: #34422e;
+}
+
+#bokningsStats{
+color: #526b4a;
+font-weight: bolder;
+}
+
+#bokningsFel{
+    color:red;
+    font-weight: bold;
+}
+
+#tjänster{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+    padding: 3rem 1rem;
+    margin:0rem;
+    text-align: center;
+}
+
+.underrubrik{
+    text-align: center;
+    color: #34422e;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.tjänst{
+    background-color: #e8eddf;
+    color:#34422e;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    text-align:left;
+    transition: background-color 0.3s ease;
+}
+
+.tjänst:hover {
+   background-color: #34422e;
+   color: white;
+}
+
+#kundRecensioner{
+  text-align: center;
+    color: #34422e;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+
+#nyRecension{
+    background-color: #526b4a;
+    color: white;
+    padding:1rem;
+    margin: 1rem;
+    border:none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+    font-size: medium;
+}
+
+#nyRecension:hover{
+    background-color: #34422e;
+}
+
+
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #526b4a;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+
+#footer a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+#kontakt{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #526b4a;
+    color: white;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+/* Desktop */
+@media (min-width: 601px) {
+    body{
+        font-size:1rem;
+    }
+    .info-bokning{
+        grid-template-columns: 1fr 1fr;
+    }
+    #tjänster{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Mobil */
+@media(max-width: 600px){
+    .info-bokning{
+        grid-template-columns: 1fr;
+    }
+    #tjänster{
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem;
+    }
+    .tjänst{
+        margin: 0.5rem 0;
+    }
+    #kontakt{
+        padding: 1rem;
+        margin: 0.5rem;
+        text-align: center;
+    }
+   #kontakt h2{
+    font-size: 1rem;
+   }
+   #kontakt p{
+    font-size: 0.8rem;
+   }
+}
+
