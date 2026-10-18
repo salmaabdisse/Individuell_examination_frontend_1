@@ -1,6 +1,6 @@
 # Individuell_examination_frontend_1
 
-Hur man kör projektet:
+Kör projektet:
 Öppna index.html i webbläsaren eller live server
 
 Kort reflektion: 
